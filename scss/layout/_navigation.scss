@@ -1,0 +1,35 @@
+header {
+    nav {
+        img {
+            max-width: 185px;
+        }
+        .navbar-toggler {
+            font-size: 1rem;
+        }
+        .collapse.navbar-collapse {
+            .navbar-nav {
+                font-weight: 400;
+                a {
+                    color: $blue-main;
+                }
+                a.me-lg-4 {
+                    border-bottom: 1px solid $blue-main;
+                    /* padding-bottom: 1rem; */
+                    @include responsive($large) {
+                        border-bottom: none;
+                        border-right: 1px solid $blue-main;
+                        padding-right: 2rem;
+                    }
+                }
+                .d-flex {
+                    a:first-child {
+                        font-weight: bold;
+                    }
+                    /*  @include responsive($medium) {
+                        margin-top: 1rem;
+                    } */
+                }
+            }
+        }
+    }
+}

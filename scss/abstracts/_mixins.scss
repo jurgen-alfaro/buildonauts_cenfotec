@@ -1,0 +1,33 @@
+// Resolution
+$small: 576px;
+$medium: 720px;
+$large: 992px;
+$extra-large: 1200px;
+$extra-extra-large: 1400px;
+@mixin responsive($media) {
+    @if $media=small {
+        @media (min-width: $media) {
+            @content;
+        }
+    }
+    @else if $media=medium {
+        @media (min-width: $media) {
+            @content;
+        }
+    }
+    @else if $media=large {
+        @media (min-width: $media) {
+            @content;
+        }
+    }
+    @else if $media=extra-large {
+        @media (min-width: $media) {
+            @content;
+        }
+    }
+    @else if $media=extra-extra-large {
+        @media (min-width: $media) {
+            @content;
+        }
+    }
+}

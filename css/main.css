@@ -1,0 +1,44 @@
+html,
+body {
+  width: 100%;
+}
+
+header nav img {
+  max-width: 185px;
+}
+
+header nav .navbar-toggler {
+  font-size: 1rem;
+}
+
+header nav .collapse.navbar-collapse .navbar-nav {
+  font-weight: 400;
+}
+
+header nav .collapse.navbar-collapse .navbar-nav a {
+  color: #073256;
+}
+
+header nav .collapse.navbar-collapse .navbar-nav a.me-lg-4 {
+  border-bottom: 1px solid #073256;
+  /* padding-bottom: 1rem; */
+}
+
+@media (min-width: 992px) {
+  header nav .collapse.navbar-collapse .navbar-nav a.me-lg-4 {
+    border-bottom: none;
+    border-right: 1px solid #073256;
+    padding-right: 2rem;
+  }
+}
+
+header nav .collapse.navbar-collapse .navbar-nav .d-flex {
+  /*  @include responsive($medium) {
+                        margin-top: 1rem;
+                    } */
+}
+
+header nav .collapse.navbar-collapse .navbar-nav .d-flex a:first-child {
+  font-weight: bold;
+}
+/*# sourceMappingURL=main.css.map */
