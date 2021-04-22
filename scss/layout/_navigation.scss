@@ -10,14 +10,14 @@ header {
             .navbar-nav {
                 font-weight: 400;
                 a {
-                    color: $blue-main;
+                    color: $blue-primary;
                 }
                 a.me-lg-4 {
-                    border-bottom: 1px solid $blue-main;
+                    border-bottom: 1px solid $blue-primary;
                     /* padding-bottom: 1rem; */
                     @include responsive($large) {
                         border-bottom: none;
-                        border-right: 1px solid $blue-main;
+                        border-right: 1px solid $blue-primary;
                         padding-right: 2rem;
                     }
                 }

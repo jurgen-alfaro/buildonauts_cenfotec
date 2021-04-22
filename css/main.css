@@ -41,4 +41,39 @@ header nav .collapse.navbar-collapse .navbar-nav .d-flex {
 header nav .collapse.navbar-collapse .navbar-nav .d-flex a:first-child {
   font-weight: bold;
 }
+
+.home h1 {
+  font-size: 1.175rem;
+  font-weight: 700;
+  color: #073256;
+}
+
+.home p {
+  color: #AFC3D3;
+  font-weight: 500;
+}
+
+.home .info-buttons {
+  max-width: 90%;
+}
+
+.home .info-buttons .btn--gray {
+  color: #fff;
+  background-color: #AFC3D3;
+  border-color: #AFC3D3;
+  border-radius: 20px;
+}
+
+.home .info-buttons .btn--blue {
+  color: #fff;
+  background-color: #073256;
+  border-color: #073256;
+  border-radius: 20px;
+}
+
+.home img {
+  max-width: 100%;
+  max-height: 50vh;
+  height: auto;
+}
 /*# sourceMappingURL=main.css.map */

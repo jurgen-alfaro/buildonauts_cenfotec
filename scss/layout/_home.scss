@@ -1,0 +1,31 @@
+.home {
+    h1 {
+        font-size: 1.175rem;
+        font-weight: 700;
+        color: $blue-primary;
+    }
+    p {
+        color: $gray-primary;
+        font-weight: 500;
+    }
+    .info-buttons {
+        max-width: 90%;
+        .btn--gray {
+            color: #fff;
+            background-color: $gray-primary;
+            border-color: $gray-primary;
+            border-radius: 20px;
+        }
+        .btn--blue {
+            color: #fff;
+            background-color: $blue-primary;
+            border-color: $blue-primary;
+            border-radius: 20px;
+        }
+    }
+    img {
+        max-width: 100%;
+        max-height: 50vh;
+        height: auto;
+    }
+}
