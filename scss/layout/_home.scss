@@ -1,12 +1,21 @@
 .home {
+    .container {
+        @include responsive($extra-extra-large) {
+            max-width: 1200px;
+        }
+    }
     h1 {
         font-size: 1.175rem;
         font-weight: 700;
         color: $blue-primary;
+        @include responsive($large) {
+            font-size: 3rem;
+        }
     }
     p {
         color: $gray-primary;
         font-weight: 500;
+        width: 100%;
     }
     .info-buttons {
         max-width: 90%;
