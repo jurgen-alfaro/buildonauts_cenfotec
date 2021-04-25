@@ -1,0 +1,23 @@
+.quotes {
+    figure {
+        .blockquote {
+            p {
+                color: #212529;
+                font-size: 0.875rem;
+                font-weight: 600;
+                @include responsive($medium) {
+                    font-size: 1rem;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+    .row:last-child {
+        .btn--blue {
+            color: #fff;
+            background-color: $blue-primary;
+            border-color: $blue-primary;
+            border-radius: 20px;
+        }
+    }
+}
