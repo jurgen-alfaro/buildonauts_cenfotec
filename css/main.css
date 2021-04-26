@@ -196,7 +196,7 @@ header nav .collapse.navbar-collapse .navbar-nav .d-flex a:first-child {
 @media (min-width: 768px) {
   .quotes figure .blockquote p {
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
   }
 }
 
@@ -204,6 +204,26 @@ header nav .collapse.navbar-collapse .navbar-nav .d-flex a:first-child {
   color: #fff;
   background-color: #073256;
   border-color: #073256;
+  border-radius: 20px;
+}
+
+.contact h3 {
+  color: #073256;
+  width: 85%;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+@media (min-width: 576px) {
+  .contact h3 {
+    width: 100%;
+  }
+}
+
+.contact .btn--gray {
+  color: #fff;
+  background-color: #AFC3D3;
+  border-color: #AFC3D3;
   border-radius: 20px;
 }
 /*# sourceMappingURL=main.css.map */

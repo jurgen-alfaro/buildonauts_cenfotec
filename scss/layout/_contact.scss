@@ -1,0 +1,17 @@
+.contact {
+    h3 {
+        color: $blue-primary;
+        width: 85%;
+        font-size: 1.7rem;
+        font-weight: bold;
+        @include responsive($small) {
+            width: 100%;
+        }
+    }
+    .btn--gray {
+        color: #fff;
+        background-color: $gray-primary;
+        border-color: $gray-primary;
+        border-radius: 20px;
+    }
+}
