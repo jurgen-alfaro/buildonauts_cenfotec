@@ -226,4 +226,58 @@ header nav .collapse.navbar-collapse .navbar-nav .d-flex a:first-child {
   border-color: #AFC3D3;
   border-radius: 20px;
 }
+
+footer {
+  background-color: #F8F9FA;
+}
+
+@media (min-width: 1400px) {
+  footer .container {
+    max-width: 1150px;
+  }
+}
+
+footer h2 {
+  color: #073256;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 992px) {
+  footer h2 {
+    font-size: 1.6rem;
+  }
+}
+
+footer small.copyright {
+  color: #333;
+  font-weight: 700;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer ul li {
+  list-style: none;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #3A567D;
+}
+
+footer ul li a:hover {
+  color: #073256;
+}
+
+footer address {
+  font-weight: 500;
+}
+
+footer address h3 {
+  color: #073256;
+  font-size: 1.275rem;
+  font-weight: bold;
+}
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,41 @@
+footer {
+    background-color: $gray-third;
+    .container {
+        @include responsive($extra-extra-large) {
+            max-width: 1150px;
+        }
+    }
+    h2 {
+        color: $blue-primary;
+        font-weight: bold;
+        font-size: 1.4rem;
+        @include responsive($large) {
+            font-size: 1.6rem;
+        }
+    }
+    small.copyright {
+        color: #333;
+        font-weight: 700;
+    }
+    ul {
+        padding: 0;
+        li {
+            list-style: none;
+            a {
+                text-decoration: none;
+                color: $blue-footer-links;
+                &:hover {
+                    color: $blue-primary;
+                }
+            }
+        }
+    }
+    address {
+        font-weight: 500;
+        h3 {
+            color: $blue-primary;
+            font-size: 1.275rem;
+            font-weight: bold;
+        }
+    }
+}
