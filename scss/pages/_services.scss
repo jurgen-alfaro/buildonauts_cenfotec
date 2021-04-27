@@ -1,0 +1,39 @@
+.our-services {
+    .container {
+        @include responsive($extra-extra-large) {
+            max-width: 1200px;
+        }
+    }
+    h1 {
+        color: $blue-primary;
+        font-size: 2.375rem;
+        font-weight: bold;
+    }
+    .service-item {
+        max-width: 100%;
+        .service-image {
+            img {
+                width: 50%;
+                height: 50%;
+            }
+        }
+        h4 {
+            color: $blue-primary;
+            font-size: 1.2rem;
+            font-weight: bold;
+            @include responsive($medium) {
+                font-size: 1.9rem;
+            }
+        }
+        p {
+            font-size: 0.9rem;
+            width: 100%;
+        }
+        .btn--gray {
+            color: #fff;
+            background-color: $gray-primary;
+            border-color: $gray-primary;
+            border-radius: 20px;
+        }
+    }
+}

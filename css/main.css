@@ -280,4 +280,49 @@ footer address h3 {
   font-size: 1.275rem;
   font-weight: bold;
 }
+
+@media (min-width: 1400px) {
+  .our-services .container {
+    max-width: 1200px;
+  }
+}
+
+.our-services h1 {
+  color: #073256;
+  font-size: 2.375rem;
+  font-weight: bold;
+}
+
+.our-services .service-item {
+  max-width: 100%;
+}
+
+.our-services .service-item .service-image img {
+  width: 50%;
+  height: 50%;
+}
+
+.our-services .service-item h4 {
+  color: #073256;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .our-services .service-item h4 {
+    font-size: 1.9rem;
+  }
+}
+
+.our-services .service-item p {
+  font-size: 0.9rem;
+  width: 100%;
+}
+
+.our-services .service-item .btn--gray {
+  color: #fff;
+  background-color: #AFC3D3;
+  border-color: #AFC3D3;
+  border-radius: 20px;
+}
 /*# sourceMappingURL=main.css.map */
