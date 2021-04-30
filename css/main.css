@@ -325,4 +325,111 @@ footer address h3 {
   border-color: #AFC3D3;
   border-radius: 20px;
 }
+
+@media (min-width: 1400px) {
+  .about .container {
+    max-width: 1200px;
+  }
+}
+
+.about h1 {
+  font-size: 1.175rem;
+  font-weight: 700;
+  color: #073256;
+}
+
+@media (min-width: 992px) {
+  .about h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .about h1 {
+    font-size: 3.175rem;
+  }
+}
+
+.about p {
+  color: #AFC3D3;
+  font-weight: 400;
+  width: 100%;
+}
+
+.about .info-buttons {
+  max-width: 90%;
+}
+
+.about .info-buttons .btn--gray {
+  color: #fff;
+  background-color: #AFC3D3;
+  border-color: #AFC3D3;
+  border-radius: 20px;
+}
+
+.about .info-buttons .btn--blue {
+  color: #fff;
+  background-color: #073256;
+  border-color: #073256;
+  border-radius: 20px;
+}
+
+.about .img-container img {
+  max-width: 100%;
+  max-height: 80vh;
+  height: auto;
+}
+
+.our-team {
+  background-color: #EBEEF2;
+}
+
+.our-team h2 {
+  color: #073256;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.our-team .team-images .member-container .profile-picture {
+  height: 180px;
+  width: 100%;
+}
+
+@media (min-width: 576px) {
+  .our-team .team-images .member-container .profile-picture {
+    height: 240px;
+    width: 240px;
+  }
+}
+
+@media (min-width: 768px) {
+  .our-team .team-images .member-container .profile-picture {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .our-team .team-images .member-container .profile-picture {
+    height: 210px;
+    width: 210px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .our-team .team-images .member-container .profile-picture {
+    height: 255px;
+    width: 255px;
+  }
+}
+
+.our-team .team-images .member-container .profile-picture img {
+  height: 100%;
+  width: 100%;
+}
+
+.our-team .team-images .member-container h3 {
+  color: #073256;
+  font-weight: bold;
+}
 /*# sourceMappingURL=main.css.map */
